@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+h1{ margin-top:10px;}
+#header_nav{height:70px;}
+#nav_btn{ margin-top:16px; background:#666;}
+#nav_btn span{background:#fff;}
+#header_nav{ width:100%; position:fixed;!important; top:0; z-index:1000; background:#fff;z-index:1000; padding-right:20px;}
+#carousel-example-generic{ margin-top:70px;}
+
+/*pinpai*/
+
+#pinpai{ margin:0 auto; text-align:center; margin-top:1rem;}
+#pinpai h2{ font-weight:bold;}
+#pinpai ul{ margin:0 auto;}
+#pinpai li{ margin-top:2em;}
+#pinpai li b{ display:block; height:135px; width:135px; border:10px solid #ececec; border-radius:50%; background:url(img/pinpai1.jpg) no-repeat center; margin:0 auto;}
+#pinpai li b:hover{border:10px solid #7bb8a6; }
+#pinpai li h4{ font-weight:bold; margin-top:1em;}
+#pinpai li span{ display:block; width:9em; border-top:0.2em solid #75b7b5; margin:0 auto}
+#pinpai li p{ line-height:1.4em; margin-top:1.2em;}
+.fenxi{ padding:5em 1em; margin-top:3em; background:#5fdba9;}
+.fenxi p{ text-align:center;}
+.fenxi a{ display:block; width:10em; text-align:center; margin:2em auto 0; padding:1em; background:#1faa73;color:#666; text-decoration:none; color:#222; border-radius:.3em;}
+.fenxi a:hover{text-decoration:none; background:#1e704e; color:#fff;}
+/*works*/
+
+#works h2{ text-align:center; color:#666; font-weight:bold; margin-top:2em;}
+#works .txt1{ text-align:center;}
+#works{ padding:0 10em;}
+#works img{ width:100%;}
+#cross li{ position:relative; overflow:hidden; padding:1em;}
+#cross li span{width:100%;height:100%; background:rgba(204,204,204,.6); position:absolute;left:-300px; top:0; line-height:20em; text-align:center}
+#cross li div{ position:fixed; left:0; top:0; width:100%; height:100%; text-align:center; overflow-y:scroll; z-index:9999; background:#fff; }
+#cross li div img{ width:372px; }
+#cross li h2{ margin-top:40px;}
+#cross li p{ width:80%; margin:0 auto; line-height:1.5em; margin-top:10px;}
+#cross li .work_close_btn_2{display:block; width:6em; height:3em; line-height:3em; background:#666; color:#fff; margin:20px auto;}
+#cross li .work_close_btn_2 b{ margin-right:5px;}
+#cross li .work_close_btn_1{float:right; margin:40px 30px 0 0; font-size:40px; cursor:pointer;}
+/*proposal*/
+#proposal h2{ margin:1em auto; text-align:center; color:#666; font-weight:bold;}
+#proposal p{ margin:0 auto; padding:0 12em; text-align:center; color:#666;}
+#proposal .msgs{ padding:0 8em; margin:1em auto 0;}
+#proposal .msgs div{ padding:0 1em;}
+#proposal .msgs input{ margin-top:2em; height:3em; line-height:3em; width:100%; border-radius:0.3em; padding-left:1em;}
+#proposal .msgs textarea{ width:100%; height:10em; padding:1em; margin:1rem auto; }
+#proposal #tijiao{ width:9em;!important; padding-left:0; margin-top:0; background:#42d69c; text-align:center; color:#fff;}
+/*footer*/
+
+.footer{ padding:4rem 0; background:#42d69c; margin-top:4rem;}
+.footer h3{ font-weight:bold}
+.footer p,.footer h3{ text-align:center;}
+
+/*footer_ls*/
+
+.footer_ls{ padding:3rem 15rem;background:#323232; margin:0 auto;}
+.footer_ls ul li{ padding-left:1rem; background:url(/wp-content/themes/test1027/img/ftdian.jpg) no-repeat left center; line-height:1.5rem;}
+
+
+/*footer_add*/
+
+.footer_add{ background:#272727; padding:3rem 12rem; text-align:center; color:#909090;}
+.footer_add p{ margin-top:1rem;}
+
+
+@media ( max-width:767px){
+	#works{ padding:0 6em;}
+	#cross li{ width:50%; margin:0 auto;}
+	body{ padding:0;!important;}
+	.navbar{ width:100%;float:none;!important;}
+	#header_nav{ padding-left:20px;}
+	#navbar-menu ul li{ 
+		background:#fff;
+		width:100%;
+		position:relative;
+		margin:0;!important;
+		border-bottom:1px solid #ccc;
+	}
+	#navbar-menu ul .last_li{ border-bottom:none;}
+	#navbar-menu ul li a{ 
+		display:block;
+		line-height:100%
+		margin:0;
+		padding:0.5em 2em;
+	}
+}
+@media ( max-width:480px){
+	#proposal .msgs{ padding:0;}
+	.container{ width:100%;!important; padding:0 1em;}
+	.fenxi{ padding:2em 1em;}
+	#works{ padding:0 2em;!important;}
+	#proposal p{ padding:0;}
+}
+@media ( width:320px){
+	#cross li span{ line-height:10em}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
